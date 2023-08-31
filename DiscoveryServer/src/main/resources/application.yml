@@ -1,0 +1,12 @@
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka
+  register-with-eureka: false
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: Eureka Discovery Server
